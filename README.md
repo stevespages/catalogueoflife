@@ -1,10 +1,10 @@
 # Catalogue of Life
 
-[COL](https://www.catalogueoflife.org/) maintains a checklist of over two million of the world's species. The number of published scientific species names is far higher as there are many synonyms for the accepted names. COL participates with taxonomic communities to decide which names are accepted. The lists drawn up by the various taxonomic communities are merged to create the COL checklist of species for all life. New information and revision of old information result in new versions of the COL checklist being released monthly with major versions released annually.
+[COL](https://www.catalogueoflife.org/) maintains a checklist of over two million of the world's species. The number of published scientific species names is far higher as there are many synonyms for the accepted names. COL participates with taxonomic communities to decide which names are accepted. The lists drawn up by the various taxonomic communities are merged to create the COL checklist of species for all life. New information and revision of old information result in new versions of the COL Checklist being released monthly with major versions released annually. There are known species missing from the list and there are, of course, more species to be discovered.
 
 In addition to providing a list of accepted names for living things, COL classifies them. The basis for this classification is described in a paper titled: [A Higher Level Classification of All Living Organisms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4418965/). The classification is intended to be a consensus view. It attempts to reflect phylogenetic relatedness of organisms but recognizes that in many areas this is unclear and therefore other criteria are also used.
 
-Linnaeus, working in the 1700s, classified animals and plants into kingdom, class, order, genus, species and subspecies. COL uses these taxonomic ranks plus some others. The COL classification has two superkingdoms: the Prokaryota, which include bacteria, and the Eukaryota which includes amoebas and Homo sapiens. The Prokaryota include 2 kingdoms and the Eukaryota include 5 kingdoms. Not all taxonomic ranks are used in the different parts of the classification. For example some of the kingdoms are made up of subkingdoms whereas others do not contain subkingdoms and have phyla as their next lower taxonomic rank.
+Linnaeus, working in the 1700s, classified animals and plants into kingdom, class, order, genus, species and subspecies. COL uses these taxonomic ranks plus some others. The COL classification has two superkingdoms: the Prokaryota, which include bacteria, and the Eukaryota which includes amoebas and *Homo sapiens*. The Prokaryota include 2 kingdoms and the Eukaryota include 5 kingdoms. Not all taxonomic ranks are used in the different parts of the classification. For example some of the kingdoms are made up of subkingdoms whereas others do not contain subkingdoms and have phyla as their next lower taxonomic rank.
 
 ## Accessing the COL Checklist
 
@@ -82,11 +82,21 @@ The files above are for the simpler version of ColDP (see https://github.com/Cat
 
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4418965/
 
+  [Towards a global list of accepted species I. Why taxonomists sometimes disagree, and why this matters](https://www.researchgate.net/publication/353230430_Towards_a_global_list_of_accepted_species_I_Why_taxonomists_sometimes_disagree_and_why_this_matters)
+
+  [Towards a global list of accepted species II. Consequences of inadequate taxonomic list governance](https://link.springer.com/article/10.1007/s13127-021-00518-8?utm_source=xmol&utm_medium=affiliate&utm_content=meta&utm_campaign=DDCN_1_GL01_metadata)
+
+  [Towards a global list of accepted species III. Independence and stakeholder inclusion](https://link.springer.com/article/10.1007/s13127-021-00496-x)
+
+  [Towards a global list of accepted species IV: Overcoming fragmentation in the governance of taxonomic lists](https://www.researchgate.net/publication/353428553_Towards_a_global_list_of_accepted_species_IV_Overcoming_fragmentation_in_the_governance_of_taxonomic_lists)
+
+  [Towards a global list of accepted species V. The devil is in the detail](https://link.springer.com/article/10.1007/s13127-021-00504-0)
+
+  [Towards a global list of accepted species VI: The Catalogue of Life checklist](https://link.springer.com/article/10.1007/s13127-021-00516-w)
+
 - Catalogue of Life Plus (COL+)
 
   See the links for COL as well as:
-
-
 
 - COL API
 
@@ -106,4 +116,26 @@ The files above are for the simpler version of ColDP (see https://github.com/Cat
 
 - Digital Object Identifier (DOI)
 
+- Eukaryote
+
 - Application Program Interface (API)
+
+- Phylogeny
+
+- Prokaryote
+
+- Taxon Status
+
+  - Accepted
+
+  - Synonym
+
+  - Homotypic Synonym
+
+  ## Related Organizations
+
+  inaturalist
+
+  observation.org
+
+  irecord.org.uk
