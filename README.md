@@ -18,15 +18,13 @@ If you know the name of the species or other taxon you are interested in there i
 
 ### Application Program Interface API
 
-The COL ChecklistBank API can be found at https://api.checklistbank.org/. It allows programs to read from the COL checklist and write to it and other checklists which share the same format as the COL Checklist. The format is called the [COL Data Package format](https://github.com/CatalogueOfLife/coldp) (ColDP).
+The COL ChecklistBank API can be found at https://api.checklistbank.org/. An API is designed for access by software rather than directly by people. Using the API, programs can read from the COL checklist. Programs can also read and write to other checklists which share the same format as the COL Checklist.
 
-Many people writing websites and other software may want the application they are building to be able to make repeated requests for information to the COL checklist but perhaps with different parameters for each request. For example a website may allow users to request information on a species. The user would enter the name of the species and the application would use that as a parameter to make an API call to the COL checklist to return information about the species. This would provide similar functionality to that offered by COL in their search page. The wide range of API calls that COL make available allow for a great variety of uses which the COL checklist can be put to using the API.
+Many people writing websites and other software may want their program to be able to make repeated requests for information to the COL checklist but perhaps with different parameters for each request. For example a website may allow users to request information on a species. The user would enter the name of the species and the application would use that as a parameter to make an API call to the COL Checklist to return information about the species. This would provide similar functionality to that offered by COL in their search page. The wide range of API calls available at COL allow the COL Checklist to be used for a great variety of research.
 
-In addition to accessing data using the API it is possible, with the necessary authentication, to add new data, modify data and delete data. This could involve checklists that will be part of the next COL checklist when it is released or it could be data in other checklists which conform to the ColDP format.
+There are a number of different ways of making an API call although typically they use the Hypertext Transfer Protocol (HTTP) which is used for browsing the world wide web. It is therefore possible to make an API call by typing an appropriate address into the address bar of a browser such as Chrome, Firefox, Edge or Safari.
 
-There are a number of different ways of making an API call although typically they use the Hypertext Transfer Protocol (HTTP) which is used for for browsing the world wide web. It is therefore possible to make an API call by typing an appropriate address into the address bar of a browser such as Chrome, Firefox, Edge or Safari.
-
-The following URL *https://api.catalogueoflife.org/dataset/1005/taxon/32/classification* can be entered into the address bar of a browser and will result in data from the COL Checklist being sent to the browser. The data is is in JSON format which is suitable for use by software. Normally the data would either be sent to a server where it would be processed and then sent to the user's browser or it may be sent directly to the user's browser but modified by JavaScript code before being displayed in the browser in a more human friendly way.
+The following URL *https://api.catalogueoflife.org/dataset/1005/taxon/32/classification* can be entered into the address bar of a browser and will result in data from the COL Checklist being sent to the browser. The data is in JSON format which is suitable for further manipulation by software. Normally the data would either be sent to a server where it would be processed and then sent to the user's browser or it may be sent directly to the user's browser but modified by JavaScript code before being displayed in the browser in a more human friendly way.
 
 ![screenshot of JSON response from API call](https://github.com/stevespages/catalogueoflife/blob/main/assets/photos/json-from-api-call.png?raw=true "screenshot of JSON response from API call")
 
@@ -34,7 +32,7 @@ The URL which we made an API call with in the previous paragraph specifies the *
 
 ### Download the whole COL Checklist
 
-Perhaps the most powerful way to access data in the COL Checklist is to download it to your own computer and then use various types of sofware to access it. The COL Checklist can be downloaded from https://www.catalogueoflife.org/data/download. Various formats are available but the recommended one is ColDP.
+Perhaps the most powerful way to access data in the COL Checklist is to download it to your own computer and then use various types of sofware to access it. The COL Checklist can be downloaded from https://www.catalogueoflife.org/data/download. Various formats are available but the recommended one is the COL Data Package ([ColDP](https://github.com/CatalogueOfLife/coldp)).
 
 The downloaded COL Checklist could be analyzed in a spreadsheet or spreadsheets. The huge size of the COL Checklist may be too much for spreadsheets but they could certainly be feasable for subsets of the data.
 
@@ -43,6 +41,9 @@ The statistical computing sofware package called *R* can be used to investigate 
 Various database systems can be used to investigate the data. Relational Database Management Software (RDBMS) is particularly suitable as the COL Checklist data is distributed among various related tables.
 
 One advantage of downloading the COL Checklist and extracting the data of interest on your own local computer or remotely on your own server is that the request for the data of interest and the returned data do not have to travel over the internet. Therefore the performance of software that takes this approach can be better than using the API. It is likely that COL uses RDBMS software to handle the API requests it receives.
+
+A further advantage of downloading the data and analyzing it with your software packages of choice is that there is essentially no limit to what you can do with it. With the API you can only make requests which have been anticipated by the people who constructed the API. These may not address the particular interests that you might have in the data.
+
 
 
 
